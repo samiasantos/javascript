@@ -1,0 +1,24 @@
+//alert("Hello there!" + " Samia");
+//alert(29 + 13 + " Samia");
+//alert(Welcome);
+//declaração das variáveis
+let nome = null;
+let idade = NaN;
+let genero = null;
+
+//Perguntas para o usuário
+
+while(nome==null || nome == ""){
+	nome = prompt("Qual é seu nome?");
+ }
+ while(isNaN(idade) || idade < 0 || idade == "" || idade == null){
+	idade = prompt("E a sua idade?");
+ }
+while(genero==null){
+	genero = prompt("Qual seu gênero? Digite O ou A.");
+ }
+
+
+
+//Imprime a mensagem final
+alert(genero+" "+nome+" tem "+idade+" anos");
